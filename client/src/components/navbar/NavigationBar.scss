@@ -1,0 +1,31 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #646cff;
+    z-index: 999;
+    background-color: #f4f4f4;
+    .username-welcome {
+        font-size: 20px;
+        color: #646cff;
+        font-weight: bold;
+    }
+    .nav-links{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        margin-right: 50px;
+        a {
+            text-decoration: none;
+        }
+        .active-link {
+            border-bottom: 3px solid #646cff;
+        }
+    }
+
+}
